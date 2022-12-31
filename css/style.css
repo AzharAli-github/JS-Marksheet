@@ -1,0 +1,126 @@
+/* .marks{
+    text-align: center;
+} */
+fieldset{
+    background-color:#00a55d ;
+    color: white;
+}
+.header{
+    display: flex;
+}
+label{
+    font-size: 20px;
+}
+.inputData{
+    text-align: center;
+    margin: 50px 0px
+}
+.marks{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.marks div{
+    margin: 25px 55px;
+    border: 1px solid;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 3px 6px, rgba(0, 0, 0, 1) 0px 3px 6px;
+}
+.marks div input{
+    width: 30%;
+}
+.marks div label{
+    font-size: 22px;
+}
+form div small{
+    margin-right: 148px;
+    visibility: hidden;
+}
+form div i{
+    visibility: hidden;
+}
+.success{
+    visibility: visible;
+    color: #2ecc71;
+    background-color: white;
+    border-radius: 50px;
+}
+.error{
+    visibility: visible;
+    color: #e74c3c;
+}
+.message{
+    visibility: visible;
+    color: #e74c3c;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.submit{
+    text-align: center;
+    margin: 40px 0px;
+}
+.submit button{
+    font-size: 25px;
+    background-color: #008f51;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 3px 6px, rgba(0, 0, 0, 1) 0px 3px 6px;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+table thead tr th{
+    border: 1px solid black;
+    width: 70%;
+    font-size: 25px;
+}
+table tbody tr td{
+    border: 1px solid black;
+    width: 100px;
+    font-size: 21px;
+    line-height: 40px;
+}
+
+.fullDetail{
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    margin: 0px auto;
+}
+.fullDetail .detailTwo img{
+    height: 22vh;
+}
+.inputData label{
+    font-size: 25px;
+}
+.inputData input{
+    font-size: 21px;
+    margin-left: 10px;
+}
+.secTwo{
+    border: 5px double black;
+    padding: 50px 0px;
+    display: block !important;
+}
+#firstTotal{
+    border-bottom: none;
+    border-left: none;
+}#lastLine{
+    width: 55%;
+    margin: 0px auto;
+}
+#lastLine li{
+    list-style: none;
+    text-align: right;
+    font-size: 21px;
+}

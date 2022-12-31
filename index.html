@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a4a986af43.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="secOne">
+        <div class="container">
+
+            <fieldset>
+                <h1>Marksheet Form</h1>
+                <form>
+                    <div class="inputData">
+                        <div>
+                            <label>Name</label>
+                            <input id="toDoName" type="text" placeholder="Enter your Name">
+                            <i id="form-name" class="fa fa-check-circle"></i>
+                            <i id="error1" class="fa fa-exclamation-circle"></i><br>
+                            <small id="message1">Input Your Name!</small>
+                        </div>
+                        <br>
+                        <label>Father Name</label>
+                        <input id="toDoFather" type="text" placeholder="Enter your Father Name">
+                        <i id="form-father" class="fa fa-check-circle"></i>
+                        <i id="error2" class="fa fa-exclamation-circle"></i><br>
+                        <small id="message2">Input Your Father Name!</small>
+                        <br><br>
+                        <label>Date of Birth</label>
+                        <input id="toDodob" type="date">
+                        <i id="form-dob" class="fa fa-check-circle"></i>
+                        <i id="error3" class="fa fa-exclamation-circle"></i><br>
+                        <small id="message3">Input Your Date of Birth</small>
+                        <br><br>
+                        <label>Address</label>
+                        <input id="toDoAddress" type="text" placeholder="Enter your Address">
+                        <i id="form-address" class="fa fa-check-circle"></i>
+                        <i id="error4" class="fa fa-exclamation-circle"></i><br>
+                        <small id="message4">Input your Address</small>
+                        <br><br>
+                        <label>Qualification</label>
+                        <input id="toDoQualf" type="text" placeholder="Enter your Qualification">
+                        <i id="form-qualf" class="fa fa-check-circle"></i>
+                        <i id="error5" class="fa fa-exclamation-circle"></i><br>
+                        <small id="message5">Input Your Qualification</small>
+                        <br><br>
+                    </div>
+                    <hr>
+
+                    <h1>Subject marks</h1>
+                    <div class="marks">
+                        <br>
+                        <div>
+                            <h2>English</h2>
+                            <h3>Total Marks: 100</h3>
+                            <label>Obtained marks</label>
+                            <input type="number" id="toDoEnglish">
+                        </div>
+
+                        <br><br>
+
+
+                        <div>
+                            <h2>Maths</h2>
+                            <h3>Total Marks: 100</h3>
+                            <label>Obtained marks</label>
+                            <input type="number" id="toDoMaths">
+                        </div>
+
+                        <div>
+                            <h2>Urdu</h2>
+                            <h3>Total Marks: 100</h3>
+                            <label>Obtained marks</label>
+                            <input type="number" id="toDoUrdu">
+                        </div>
+                        <br><br>
+
+                        <div>
+                            <h2>Islamiat</h2>
+                            <h3>Total Marks: 100</h3>
+                            <label>Obtained marks</label>
+                            <input type="number" id="toDoIslamiat">
+                        </div>
+
+
+                        <div>
+                            <h2>Science</h2>
+                            <h3>Total Marks: 100</h3>
+                            <label>Obtained marks</label>
+                            <input type="number" id="toDoScience">
+                        </div>
+
+
+                        <div>
+                            <h2>Pak Studies</h2>
+                            <h3>Total Marks: 100</h3>
+                            <label>Obtained marks</label>
+                            <input type="number" id="toDoPak">
+                        </div>
+
+                </form>
+            </fieldset>
+            <div class="submit">
+                <button id="toDoSubmit">Submit</button>
+            </div>
+            </div>
+    </section>
+
+    <section style="display: none;" id="SectionTwo">
+
+        <div id="detail">
+
+
+        </div>
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Subjects</th>
+                    <th>Total Marks</th>
+                    <th>Obtained Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tableOne">
+                    <td>English</td>
+                </tr>
+                <tr id="tableTwo">
+                    <td>Maths</td>
+                </tr>
+                <tr id="tableThree">
+                    <td>Urdu</td>
+                </tr>
+                <tr id="tableFour">
+                    <td>Islamiat</td>
+                </tr>
+                <tr id="tableFive">
+                    <td>Science</td>
+                </tr>
+                <tr id="tableSix">
+                    <td>Pak-Studies</td>
+                </tr>
+                <tr id="tableTotal">
+                    <td id="firstTotal"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="lastLine">
+
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
